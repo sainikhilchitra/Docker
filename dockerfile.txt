@@ -1,5 +1,5 @@
 FROM openjdk:8
 COPY . /src/java
 WORKDIR /src/java
-RUN ["javac","Solution.java"]
-ENTRYPOINT ["java","Solution"]
+RUN ["javac","Docker.java"]
+ENTRYPOINT ["java","Docker"]
